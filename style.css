@@ -1,0 +1,161 @@
+/* ======== global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:slateblue
+}
+
+.container{
+    width: min(90vw, 900px);
+    margin: auto;
+}
+
+/* ======== titles */
+
+h2{
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.titulo2{
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    background: slateblue;
+    margin-top: 1rem;
+}
+
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+/* ======== header */
+header{
+    background: white;
+    padding: 3rem;
+    border-radius: 0rem 0rem 0rem 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: border-box;  
+}
+
+#titulo{
+    color: slateblue;
+    font-weight: 100;
+}
+
+/* ======== cards */
+
+.card1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    background: white;
+    color: slateblue;
+    padding: 2rem 4rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;  
+}
+
+.card2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    background: rgb(240, 237, 71);
+    color: slateblue;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    width: 20vw;
+}
+
+.valores{
+    color: green;
+}
+
+#modalidade{
+    margin-top: 0rem;
+    color: white;
+}
+
+/* ======== imagens */
+
+#imagens{
+    margin-top: -3rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+.icones{
+    margin-top: 3rem;
+}
+
+/* =========== table */
+
+#data-table{
+    width: 100%;
+    border-spacing: 0 0.3rem;
+    font-size: 18px;
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child{
+    border-radius: 2rem 0 0 2rem;
+}
+
+table thead tr th:last-child,
+table tbody tr td:last-child{
+    border-radius: 0rem 2rem 2rem 0rem;
+}
+
+table th{
+    background: rgb(240, 237, 71);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 1rem 2rem;
+    text-align: left;
+}
+
+table tbody tr {
+    opacity: 1
+}
+
+table tr:hover {
+    opacity: 0.7
+}
+
+table td{
+    background: white;
+    padding: 1rem 2rem;
+}
+
+.cabecalho{
+    color: slateblue;
+}
+
+.descricao{
+    color: rgb(100, 100, 100);
+}
+
+.idade{
+    color: rgb(100, 100, 100);
+}
+
+.modalidade{
+    color: rgb(56, 177, 56);
+}
