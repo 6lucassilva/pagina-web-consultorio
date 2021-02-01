@@ -124,7 +124,7 @@ table tbody tr td:last-child{
 }
 
 table th{
-    background: rgb(240, 237, 71);
+    background:  rgb(240, 237, 71);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     padding: 1rem 2rem;
@@ -132,16 +132,18 @@ table th{
 }
 
 table tbody tr {
-    opacity: 1
+    opacity: 0.9
 }
 
 table tr:hover {
-    opacity: 0.7
+    opacity: 1
 }
 
-table td{
+table tbody td{
     background: white;
     padding: 1rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
 
 .cabecalho{
@@ -149,11 +151,11 @@ table td{
 }
 
 .descricao{
-    color: rgb(100, 100, 100);
+    color: rgb(37, 36, 36);
 }
 
 .idade{
-    color: rgb(100, 100, 100);
+    color: rgb(37, 36, 36);
 }
 
 .modalidade{
