@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styleform.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho do formulário-->
+   <header id="titulo">
+       <h1>Ficha de paciente</h1>
+   </header>
+<!-- Campo do nome-->
+    <!-- Início do formulário-->
+    <main>
+        <form>
+            <div id="card1">
+                <div id="content"> 
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input class="input1" type="text" name="nome" required>  
+                    </div>         
+                    <div>         
+                        <label for="numero">Número</label>
+                        <input class="input1" type="number" name="numero" required>
+                    </div>
+                </div>
+                <div id="email">    
+                    <div>
+                        <label for="email">Email</label>
+                        <input class="input1" type="email" name="email" required>   
+                    </div>
+                </div>    
+            </div>
+
+            <!-- Campo de especialidade com 3 opções de botões selecionáveis-->
+            <div id="card2"> 
+                <h2>Selecione a modalidade que deseja atendimento?</h2>
+                <div>
+                    <input class="input2" type="radio" name="modalidade" value="atendimento online">
+                    <label for="presencial">Atendimento presencial</label>
+                </div>
+                <div> 
+                    <input class="input2" type="radio" name="modalidade" value="Atendimento Online">
+                    <label for="online">Atendimento online</label>
+                </div>     
+            </div>  
+
+            <!-- Campo de modalidade com 2 opções de botões selecionáveis-->    
+            <div id="card3">
+                <h2>Qual a especialidade que você deseja atendimento?</h2>
+                <div>    
+                    <input class="input3" type="radio" name="especialidade" value="Nutrição esportiva"> 
+                    <label for="Nutrição esportiva">Nutrição esportiva</label>
+                </div>
+                <div>    
+                    <input class="input3" type="radio" name="especialidade" value="Nutrição comportamental"> 
+                    <label for="Nutrição comportamental">Nutrição comportamental</label>
+                </div> 
+                <div>                
+                    <input class="input3" type="radio" name="especialidade" value="Nutrição esportiva"> 
+                    <label for="Nutrição infantil">Nutrição infantil</label>
+                </div>
+            </div>    
+            
+            <!-- caixa de texto -->    
+            <div id="card4">
+                <h2>Essa será sua primeira consulta ou já tem alguma experiência com um profissional de nutrição?</h2> 
+            <div id="card4">
+                <textarea rows="10" name="experiencia"></textarea>
+            </div>
+        </div>  
+        </form>
+    </main>   
+
+    <!-- botao de envio do formulario -->  
+    <footer id="button">
+        <button type="submit">Concluído</button>
+    </div>
+</body>
+</html>

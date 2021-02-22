@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --roxo: slateblue;
+    --branco: #F8F8FF;
+    --amarelo: #fdf05d;
+    --verde: #008000;
+    --vermelho: #ff4040;
+}
+
+body{
+    background: var(--roxo);
+    font-family: 'Roboto';
+}
+
+h2{
+    color: var(--amarelo);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#titulo{
+    background: var(--branco);
+    color: var(--roxo);
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px 0px;
+}
+
+/* card com nome, número e email */
+#card1{
+    width: 600px;
+    height: 160px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#content{
+    width: 650px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--amarelo);
+}
+
+#email{
+    width: 300px;
+    height: 80px;
+    color: var(--amarelo);
+}
+
+.input1{
+    padding: 0px 10px;
+    width: 280px;
+    height: 40px;
+    margin: 5px 0px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+#card1 label{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* card com modalidade presencial ou online */
+#card2{
+    width: 600px;
+    height: 150px;
+    margin: auto;
+    color: var(--branco);
+}
+
+.input2{
+    width: 15px;
+    height: 15px;
+    margin: 20px 0px;
+    outline: none;
+}
+
+.input2:hover{
+    cursor: pointer;
+}
+
+#card2 label:hover{
+    color: var(--amarelo);
+}
+
+/* card com especialiade esportiva, comportamental ou infatil */
+#card3{
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    color: var(--branco);
+}
+
+.input3{
+    width: 15px;
+    height: 15px;
+    margin: 20px 0px;
+    outline: none;
+}
+
+.input3:hover{
+    cursor: pointer;
+}
+
+#card3 label:hover{
+    color: var(--amarelo);
+}
+
+/* card com área de texto */
+#card4{
+    width: 600px;
+    height: 210px;
+    margin: auto;
+    color: var(--branco);
+}
+
+textarea{
+    margin-top: 5px;
+    width: 600px;
+    height: 200px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Roboto';
+}
+
+/* Botão concluído */
+#button{
+    background: var(--roxo);
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    padding: 20px 0px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+button{
+    background: var(--amarelo);
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    color: var(--roxo);
+    font-size: 16px;
+    outline: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background: var(--roxo);
+    border: solid 1px var(--amarelo);
+    color: var(--amarelo);
+}
+
+
